@@ -10,6 +10,8 @@
     Title="MainWindow"
     Width="1280"
     Height="720"
+    MinWidth="1280"
+    MinHeight="720"
     Loaded="FluentWindow_Loaded"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
