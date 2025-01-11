@@ -190,12 +190,20 @@
 
                     </Grid.RowDefinitions>
                     <Grid />
-                    <Grid Grid.Row="12" Margin="20,0,20,0">
+                    <Grid Grid.Row="11" Margin="20,5,20,5">
                         <ui:Button
                             HorizontalAlignment="Stretch"
                             VerticalAlignment="Stretch"
                             Click="Button_Compare">
                             Compare
+                        </ui:Button>
+                    </Grid>
+                    <Grid Grid.Row="12" Margin="20,5,20,5">
+                        <ui:Button
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"
+                            Click="Button_Compare_v2">
+                            Compare V2
                         </ui:Button>
                     </Grid>
                 </Grid>

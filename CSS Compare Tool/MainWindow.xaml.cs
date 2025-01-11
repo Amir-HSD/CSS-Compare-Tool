@@ -88,6 +88,12 @@ namespace CSS_Compare_Tool
             compareViewModel.Compare(this);
         }
 
+        private void Button_Compare_v2(object sender, RoutedEventArgs e)
+        {
+            compareViewModel.MainCss = MainCssEditor.Text;
+            compareViewModel.SecondCss = SecondCssEditor.Text;
 
+            compareViewModel.Compare_v2(this);
+        }
     }
 }
