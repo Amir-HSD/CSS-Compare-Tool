@@ -169,7 +169,7 @@
                     Foreground="White"
                     ShowLineNumbers="True"
                     SyntaxHighlighting="CSS"
-                    Text="slam" />
+                    Text="" />
             </Grid>
             <Grid Grid.Row="1" Grid.Column="1">
                 <Grid>
